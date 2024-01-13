@@ -12,66 +12,76 @@ import despedida from "../assets/image/despedida.svg"
 #icon-grid.container.px-4.py-5
     h2.pb-2.border-bottom Como va estar la fiesta?
     .container 
-        .d-flex.flex-row.flex-wrap
-            .feature-item.m-0.p-0.d-flex.flex-row.align-items-center.gap-3.mr-0.pr-0
+        .row.text-center
+            .col-12.col-sm-6.col-md-4.col-lg-3.d-flex.flex-column.flex-sm-row.justify-content-between.align-items-center
                 img.feature-icon(:src="ceremonia")
                 div
                     h3.fw-bold.mb-0.fs-4.text-body-emphasis Ceremonia
                     p De 1:00 a 2:30pm
-                v-icon(name="bi-arrow-right-circle-fill" scale="2")
-            .feature-item.m-0.p-0.d-flex.flex-row.align-items-center.gap-3.mr-0.pr-0
+                v-icon.d-none.d-sm-block(name="bi-arrow-right-circle-fill" scale="1.5")
+                v-icon.d-block.d-sm-none(name="bi-arrow-down-circle-fill" scale="1.5")
+            .col-12.col-sm-6.col-md-4.col-lg-3.d-flex.flex-column.flex-sm-row.justify-content-between.align-items-center
                 img.feature-icon(:src="amorGlobos")
                 div
-                    h3.fw-bold.mb-0.fs-4.text-body-emphasis Nuestra recepcion
+                    h3.fw-bold.mb-0.fs-4.text-body-emphasis Recepcion
                     p Inicia a las 2:30pm
-                v-icon(name="bi-arrow-right-circle-fill" scale="2")
-            .feature-item.m-0.p-0.d-flex.flex-row.align-items-center.gap-3.mr-0.pr-0
+                v-icon.d-none.d-sm-block(name="bi-arrow-right-circle-fill" scale="1.5")
+                v-icon.d-block.d-sm-none(name="bi-arrow-down-circle-fill" scale="1.5")
+            .col-12.col-sm-6.col-md-4.col-lg-3.d-flex.flex-column.flex-sm-row.justify-content-between.align-items-center
                 img.feature-icon(:src="recepcion")
                 div
-                    h3.fw-bold.mb-0.fs-4.text-body-emphasis La Bienvenida
+                    h3.fw-bold.mb-0.fs-4.text-body-emphasis Bienvenida
                     p De 3:30 a 3:45pm
-                v-icon(name="bi-arrow-right-circle-fill" scale="2")
+                v-icon.d-none.d-sm-block(name="bi-arrow-right-circle-fill" scale="1.5")
+                v-icon.d-block.d-sm-none(name="bi-arrow-down-circle-fill" scale="1.5")
 
-            .feature-item.m-0.p-0.d-flex.flex-row.align-items-center.gap-3.mr-0.pr-0
+            .col-12.col-sm-6.col-md-4.col-lg-3.d-flex.flex-column.flex-sm-row.justify-content-between.align-items-center
                 img.feature-icon(:src="dinner")
                 div
                     h3.fw-bold.mb-0.fs-4.text-body-emphasis Cena
                     p De 3:45 a 6:00pm
-                v-icon(name="bi-arrow-right-circle-fill" scale="2")
-                
-            .feature-item.m-0.p-0.d-flex.flex-row.align-items-center.gap-3.mr-0.pr-0
+                v-icon.d-none.d-sm-block(name="bi-arrow-right-circle-fill" scale="1.5")
+                v-icon.d-block.d-sm-none(name="bi-arrow-down-circle-fill" scale="1.5")
+
+            .col-12.col-sm-6.col-md-4.col-lg-3.d-flex.flex-column.flex-sm-row.justify-content-between.align-items-center
                 img.feature-icon(:src="pastel")
                 div
-                    h3.fw-bold.mb-0.fs-4.text-body-emphasis Hola del pastel
+                    h3.fw-bold.mb-0.fs-4.text-body-emphasis Pastel
                     p De 6:00 a 6:30pm
-                v-icon(name="bi-arrow-right-circle-fill" scale="2")
-            .feature-item.m-0.p-0.d-flex.flex-row.align-items-center.gap-3.mr-0.pr-0
+                v-icon.d-none.d-sm-block(name="bi-arrow-right-circle-fill" scale="1.5")
+                v-icon.d-block.d-sm-none(name="bi-arrow-down-circle-fill" scale="1.5")
+            .col-12.col-sm-6.col-md-4.col-lg-3.d-flex.flex-column.flex-sm-row.justify-content-between.align-items-center
                 img.feature-icon(:src="fiesta")
                 div
                     h3.fw-bold.mb-0.fs-4.text-body-emphasis Convivo
                     p 6:30pm a 8:00pm
-                v-icon(name="bi-arrow-right-circle-fill" scale="2")
-            .feature-item.m-0.p-0.d-flex.flex-row.align-items-center.gap-3.mr-0.pr-0
+                v-icon.d-none.d-sm-block(name="bi-arrow-right-circle-fill" scale="1.5")
+                v-icon.d-block.d-sm-none(name="bi-arrow-down-circle-fill" scale="1.5")
+            .col-12.col-sm-6.col-md-4.col-lg-3.d-flex.flex-column.flex-sm-row.justify-content-between.align-items-center
                 img.feature-icon(:src="despedida")
                 div
                     h3.fw-bold.mb-0.fs-4.text-body-emphasis Despedida
                     p 8:00 a 8:15pm
-                v-icon(name="bi-arrow-right-circle-fill" scale="2")
+                v-icon.d-none.d-sm-block(name="bi-arrow-right-circle-fill" scale="1.5")
+                v-icon.d-block.d-sm-none(name="bi-arrow-down-circle-fill" scale="1.5")
 
 </template>
 <style scoped>
 .feature-icon {
     width: 3em;
-    padding:.5em;
+    padding: .5em;
 }
-.mr-0{
-    margin-right:0;
+
+.mr-0 {
+    margin-right: 0;
 }
-pr-0{
-    padding-right:0;
+
+pr-0 {
+    padding-right: 0;
 }
-.feature-item{
-    min-width:300px;
+
+.feature-item {
+    min-width: 300px;
 
 }
 </style>

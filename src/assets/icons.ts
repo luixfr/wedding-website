@@ -10,6 +10,7 @@ import {
   MdTextsmsRound,
   IoDocumentText,
   BiArrowRightCircleFill,
+  BiArrowDownCircleFill,
 } from "oh-vue-icons/icons";
 import { App } from "vue";
 
@@ -24,7 +25,8 @@ export default function importIcons(app: App<Element>) {
     GiCakeSlice,
     MdTextsmsRound,
     IoDocumentText,
-    BiArrowRightCircleFill
+    BiArrowRightCircleFill,
+    BiArrowDownCircleFill
   );
   app.component("v-icon", OhVueIcon);
 }
