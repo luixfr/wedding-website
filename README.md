@@ -11,3 +11,7 @@ yarn dev
 ```
 yarn build
 ```
+
+## Deploy
+
+Merge to main branch deploys to https://luixfr.github.io/wedding-website/
