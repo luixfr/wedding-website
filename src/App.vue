@@ -6,6 +6,7 @@ import Cards from "./components/Cards.vue"
 import Footer from "./components/Footer.vue"
 import Header from "./components/Header.vue"
 import Rsvp from "./components/Rsvp.vue"
+import Regalos from "./components/Regalos.vue"
 import { Countdown } from 'vue3-flip-countdown'
 
 const weddingDate = new Date(2024, 3, 16, 12)
@@ -18,7 +19,7 @@ WideText
 Cards
 Rsvp
 Schedule
-
+Regalos 
 Footer
 </template>
 

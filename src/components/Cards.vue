@@ -10,7 +10,21 @@ const dateCardBg = `url(${date})`
 const bouqueteCardBg = `url(${bouquete})`
 </script>
 <template lang="pug">
-#custom-cards.px-4.py-5.bg-light
+
+.container.mb-5
+    .row.align-items-md-stretch
+        .col-md-6
+            .h-100.p-5.rounded-3.place
+                h3.p-5.mt-5.mb-4.display-6.lh-1.fw-bold.text-shadow.text-white 7910 S. Vineland road Bakersfield, CA 93307
+                button.btn.btn-secondary.text-white(type='button') Example button
+
+        .col-md-6
+            .h-100.p-5.rounded-3.date
+                h3.p-5.mt-5.mb-4.display-6.lh-1.fw-bold.text-shadow.text-white Sábado 16 de Marzo.<br>1:00pm
+                button.btn.btn-dark(type='button') Example button
+
+
+//#custom-cards.px-4.py-5.bg-light
     .container
         .row.row-cols-1.row-cols-lg-3.align-items-stretch.g-4.py-5
             .col
@@ -40,11 +54,11 @@ const bouqueteCardBg = `url(${bouquete})`
 </template>
 
 <style scoped lang="scss">
-.place.card {
+.place {
     background-image: v-bind("placeCardBg");
 }
 
-.date.card {
+.date {
     background-image: v-bind("dateCardBg");
 }
 
