@@ -7,4 +7,5 @@ export default defineConfig({
     exclude: ["oh-vue-icons/icons"],
   },
   plugins: [vue()],
+  base: "/wedding-website/",
 });
