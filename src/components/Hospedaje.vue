@@ -1,10 +1,11 @@
 
 <template lang="pug">
 .container.my-5
-    h2.fw-bold Opciones de Hospedaje
+    h2.fw-bold.mt-5.text-center Opciones de Hospedaje
+    hr.mb-5
     .row.row-cols-1.row-cols-md-4.g-4
         .col
-            .card.h-100
+            .card.h-100.shadow
                 .card-body.d-flex.flex-column.justify-content-between
                     h5.card-title Extended Stay America
                     p
@@ -19,7 +20,7 @@
                     p
                         a.btn.btn-secondary(href='#') View details &raquo;           
         .col
-            .card.h-100
+            .card.h-100.shadow
                 .card-body.d-flex.flex-column.justify-content-between
                     h5.card-title Best Western Plus Hill House
                     p
@@ -34,7 +35,7 @@
                     p
                         a.btn.btn-secondary(href='#') View details &raquo;           
         .col
-            .card.h-100
+            .card.h-100.shadow
                 .card-body.d-flex.flex-column.justify-content-between
                     h5.card-title Super 8 by Wyndham Bakersfield 
                     p
@@ -50,7 +51,7 @@
                         a.btn.btn-secondary(href='#') View details &raquo;           
 
         .col
-            .card.h-100
+            .card.h-100.shadow
                 .card-body.d-flex.flex-column.justify-content-between
                     h5.card-title WoodSpring Suites Bakersfield Airport 
                     p
