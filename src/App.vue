@@ -11,7 +11,8 @@ import Hospedaje from "./components/Hospedaje.vue"
 import Recomendaciones from "./components/Recomendaciones.vue"
 import { Countdown } from 'vue3-flip-countdown'
 
-const weddingDate = new Date(2024, 3, 16, 12)
+const weddingDate = new Date('March 16, 2024 13:00:00 GMT-08:00')
+
 </script>
 
 <template lang="pug">
@@ -20,6 +21,11 @@ Header
 
 WideText
 Cards
+.box.bg-secondary.my-5
+    .container.py-5
+        h1.text-center.display-3.ff-vibes.text-white Faltan 
+        Countdown(labelColor="white" :deadlineDate="weddingDate" mainColor="#e63946" secondFlipColor="#e63946" mainFlipBackgroundColor="white" secondFlipBackgroundColor="white")
+
 Rsvp
 Schedule
 Regalos 

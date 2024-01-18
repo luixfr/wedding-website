@@ -2,9 +2,9 @@
 import weddingCake from "../assets/image/wedding-cake.jpg"
 </script>
 <template lang="pug">
-.box.bg-primary.p-3.bg-gradient
+.box.bg-primary.p-5.bg-gradient
     .container
-        h2.text-center.ff-vibes.color-white.p-3.text-white Nos acompanas?
+        h2.text-center.ff-vibes.color-white.text-white Nos acompanas?
         .container.d-flex.flex-column.flex-lg-row.justify-content-center
             .rsvp-content.rounded-4.shadow.bg-white
                 .rsvp-body.p-5
@@ -26,6 +26,6 @@ import weddingCake from "../assets/image/wedding-cake.jpg"
                             div
                                 h5.mb-0 Llena el formulario
                                 | Haz click en el boton para confimar tu asistencia
-                    button.btn.btn-lg.btn-primary.mt-2.w-100 Confima aqui!
+                    button.btn.btn-lg.btn-secondary.mt-2.w-100.text-white Confima aqui!
 
 </template>
