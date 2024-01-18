@@ -26,7 +26,7 @@ const lang = ref<"es" | "en">("es")
 
 Header(:texto="content.header.texto" :cita="conent.header.cita")
 
-WideText
+WideText(:title="content.invitation.title" :invitation="content.invitation.invitation")
 Cards#detalles(:date="content.cards.date" :time="content.cards.time")
 .box.bg-secondary.my-5
     .container.py-5

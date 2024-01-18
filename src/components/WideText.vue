@@ -2,12 +2,13 @@
 #text.my-5.bg-primary.bg-gradient
     .p-5.text-center
         .container.py-5
-            h1.ff-vibes.text-white Nos Vamos a Casar!
+            h1.ff-vibes.text-white {{ title }}
             p.col-lg-8.mx-auto.fw-normal.ff-poppins.fw-bold.text-white
-                | Nos complacemos en ivitarle a nuestra unión, y el intercambio de nuestros votos de amor y compromiso
-   
+                | {{ invitation }}
 </template>
-
+<script setup lang="ts">
+defineProps<{ title: string, invitation: string }>()
+</script>
 
 
 <style>
