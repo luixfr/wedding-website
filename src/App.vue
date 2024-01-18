@@ -10,34 +10,33 @@ import Regalos from "./components/Regalos.vue"
 import Hospedaje from "./components/Hospedaje.vue"
 import Recomendaciones from "./components/Recomendaciones.vue"
 import { Countdown } from 'vue3-flip-countdown'
-import { ref } from "vue"
-import { esContent } from "./content"
+import { onMounted, ref } from "vue"
+import { esContent as content } from "./content"
 
 const weddingDate = new Date('March 16, 2024 13:00:00 GMT-08:00')
 
+//const content = esContent
 
-const content = ref(esContent)
 const lang = ref<"es" | "en">("es")
-
 
 </script>
 
 <template lang="pug">
 
-Header(:texto="content.header.texto" :cita="conent.header.cita")
+Header(:texto="content.header.texto" :cita="content.header.cita")
 
 WideText(:title="content.invitation.title" :invitation="content.invitation.invitation")
-Cards#detalles(:date="content.cards.date" :time="content.cards.time")
+Cards#detalles(:time="content.cards.time" :place="content.cards.place")
 .box.bg-secondary.my-5
     .container.py-5
         h1.text-center.display-3.ff-vibes.text-white {{ content.countDown.title }} 
         Countdown(labelColor="white" :deadlineDate="weddingDate" mainColor="#e63946" secondFlipColor="#e63946" mainFlipBackgroundColor="white" secondFlipBackgroundColor="white")
 
-Rsvp#rsvp(:title="content.rsvp.title" :card="content.card")
+Rsvp#rsvp(:title="content.rsvp.title" :card="content.rsvp.card")
 Schedule#schedule(:schedule="content.schedule.schedule" :title="content.schedule.title")
 Regalos#registry(:title="content.registry.title" :text="content.registry.text")
-Hospedaje#hospedaje
-Recomendaciones#recomendaciones
+Hospedaje#hospedaje(:title="content.hotels.title")
+Recomendaciones#recomendaciones(:title="content.recommendations.title" :subtitle="content.recommendations.subtitle", :recommendations="content.recommendations.recommendations")
 
 Footer(:links="content.footer.links")
 </template>

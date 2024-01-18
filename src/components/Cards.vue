@@ -1,15 +1,15 @@
 <script setup lang="ts">
-import place from "../assets/image/place.webp"
-import date from "../assets/image/date.webp"
+import placeImg from "../assets/image/place.webp"
+import dateImg from "../assets/image/date.webp"
 import bouquete from "../assets/image/bouquet.webp"
 import { OhVueIcon } from "oh-vue-icons";
 
 
-const placeCardBg = `url(${place})`
-const dateCardBg = `url(${date})`
+const placeCardBg = `url(${placeImg})`
+const dateCardBg = `url(${dateImg})`
 const bouqueteCardBg = `url(${bouquete})`
 
-defineProps<{ date: { title: string, button: string }, time: { title: string, button: string } }>()
+defineProps<{ place: { title: string, button: string }, time: { title: string, button: string } }>()
 </script>
 <template lang="pug">
 
@@ -18,7 +18,8 @@ defineProps<{ date: { title: string, button: string }, time: { title: string, bu
         .col-md-6.m-2.m-md-0
             .h-100.p-5.rounded-3.place
                 h3.p-5.mt-5.mb-4.display-6.lh-1.fw-bold.text-shadow.text-white {{ place.title }}
-                a.btn.btn-secondary.text-white.btn-shadow(target="_blank" href="https://maps.app.goo.gl/hPpmj8NC472HkB4v5") {{ place.button }}
+                a.btn.btn-secondary.text-white.btn-shadow(target="_blank" href="https://maps.app.goo.gl/hPpmj8NC472HkB4v5") 
+                    | {{ place.button }}
 
         .col-md-6.m-2.m-md-0
             .h-100.p-5.rounded-3.date

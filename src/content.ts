@@ -1,10 +1,11 @@
-import ceremonia from "../assets/image/ceremonia.svg";
-import recepcion from "../assets/image/amor-globos.svg";
-import fiesta from "../assets/image/fiesta.svg";
-import dinner from "../assets/image/dinner.svg";
-import bienvenida from "../assets/image/recepcion.svg";
-import pastel from "../assets/image/pastel.svg";
-import despedida from "../assets/image/despedida.svg";
+import ceremonia from "./assets/image/ceremonia.svg";
+import recepcion from "./assets/image/amor-globos.svg";
+import fiesta from "./assets/image/fiesta.svg";
+import dinner from "./assets/image/dinner.svg";
+import bienvenida from "./assets/image/recepcion.svg";
+import pastel from "./assets/image/pastel.svg";
+import despedida from "./assets/image/despedida.svg";
+import { HiSun, GiBowTie, FaShoePrints, CoChild } from "oh-vue-icons/icons";
 export const esContent = {
   header: {
     texto:
@@ -62,6 +63,34 @@ export const esContent = {
     title: "Regalos",
     text:
       "Nuestra preferencia de regalo de boda es monetario pero están invitados a traer y dar lo que Dios ha puesto en su corazón. De antemano les agradecemos por pensar en nosotros y compartir con nosotros las bendiciones que Dios les ha dado.",
+  },
+  hotels: { title: "Opciones de Hospedaje" },
+  recommendations: {
+    title: "Recomnedaciones",
+    subtitle:
+      "Gracias por visitar nuestra página de boda. Antes de despedirnos quisiéramos darles algunas últimas recomendaciones.",
+    recommendations: [
+      {
+        icon: HiSun.name,
+        text:
+          "Nuestra boda será al aire libre, por lo cual están invitados a traer lo necesario para que puedan tener una experiencia cómoda y bonita.",
+      },
+      {
+        icon: GiBowTie.name,
+        text:
+          "La vestimenta será formal pero está invitado a venir como guste lo más importante para nosotros es su asistencia.",
+      },
+      {
+        icon: FaShoePrints.name,
+        text:
+          "Se les anuncia que la ceremonia se llevará a cabo en el pasto para pensar en la opción de zapatos.",
+      },
+      {
+        icon: CoChild.name,
+        text:
+          "Finalmente, se les pide a los padres de familia que cuiden de sus niños durante su tiempo en nuestra boda para evitar peligros y accidentes. Nuestro deseo es compartir nuestro día especial con ustedes y que ambos tengamos una experiencia linda y sobre todo con la bendición de Dios. Dios los bendiga y los esperamos pronto!",
+      },
+    ],
   },
   footer: {
     links: [

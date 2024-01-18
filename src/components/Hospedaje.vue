@@ -1,7 +1,10 @@
 
+<script setup lang="ts">
+defineProps<{ title: string }>()
+</script>
 <template lang="pug">
 .container.my-5
-    h2.fw-bold.mt-5.text-center Opciones de Hospedaje
+    h2.fw-bold.mt-5.text-center {{ title }}
     hr.mb-5
     .row.row-cols-1.row-cols-md-4.g-4
         .col
