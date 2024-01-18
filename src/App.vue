@@ -27,7 +27,7 @@ const lang = ref<"es" | "en">("es")
 Header(:texto="content.header.texto" :cita="conent.header.cita")
 
 WideText
-Cards#detalles
+Cards#detalles(:date="content.cards.date" :time="content.cards.time")
 .box.bg-secondary.my-5
     .container.py-5
         h1.text-center.display-3.ff-vibes.text-white Faltan 

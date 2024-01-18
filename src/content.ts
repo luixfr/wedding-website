@@ -6,11 +6,11 @@ export const esContent = {
   },
   cards: {
     place: {
-      address: "7910 S. Vineland road Bakersfield, CA 93307",
+      title: "7910 S. Vineland road Bakersfield, CA 93307",
       button: "Ven en Google Maps",
     },
-    date: {
-      time: "Sábado 16 de Marzo. 1:00pm",
+    time: {
+      title: "Sábado 16 de Marzo. 1:00pm",
       button: "Agregar al Calendario",
     },
   },
