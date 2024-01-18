@@ -47,7 +47,7 @@ export const esContent = {
     },
   },
   schedule: {
-    title: "",
+    title: "Como va estar la fiesta?",
     schedule: [
       { img: ceremonia, title: "Ceremonia", time: "De 1:00 a 2:30pm" },
       { img: recepcion, title: "Recepcion", time: "Inicia a las 2:30pm" },
@@ -57,6 +57,11 @@ export const esContent = {
       { img: fiesta, title: "Convivo", time: "6:30pm a 8:00pm" },
       { img: despedida, title: "Despedida", time: "8:00 a 8:15pm" },
     ],
+  },
+  registry: {
+    title: "Regalos",
+    text:
+      "Nuestra preferencia de regalo de boda es monetario pero están invitados a traer y dar lo que Dios ha puesto en su corazón. De antemano les agradecemos por pensar en nosotros y compartir con nosotros las bendiciones que Dios les ha dado.",
   },
   footer: {
     links: [

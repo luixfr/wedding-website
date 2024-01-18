@@ -35,7 +35,7 @@ Cards#detalles(:date="content.cards.date" :time="content.cards.time")
 
 Rsvp#rsvp(:title="content.rsvp.title" :card="content.card")
 Schedule#schedule(:schedule="content.schedule.schedule" :title="content.schedule.title")
-Regalos#registry
+Regalos#registry(:title="content.registry.title" :text="content.registry.text")
 Hospedaje#hospedaje
 Recomendaciones#recomendaciones
 
