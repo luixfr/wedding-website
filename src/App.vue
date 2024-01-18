@@ -30,10 +30,10 @@ WideText(:title="content.invitation.title" :invitation="content.invitation.invit
 Cards#detalles(:date="content.cards.date" :time="content.cards.time")
 .box.bg-secondary.my-5
     .container.py-5
-        h1.text-center.display-3.ff-vibes.text-white Faltan 
+        h1.text-center.display-3.ff-vibes.text-white {{ content.countDown.title }} 
         Countdown(labelColor="white" :deadlineDate="weddingDate" mainColor="#e63946" secondFlipColor="#e63946" mainFlipBackgroundColor="white" secondFlipBackgroundColor="white")
 
-Rsvp#rsvp
+Rsvp#rsvp(:title="content.rsvp.title" :card="content.card")
 Schedule#schedule
 Regalos#registry
 Hospedaje#hospedaje

@@ -19,6 +19,26 @@ export const esContent = {
       button: "Agregar al Calendario",
     },
   },
+  countDown: { title: "Faltan" },
+  rsvp: {
+    title: "Nos acompanas?",
+    card: {
+      title: "Confirma tu asistencia",
+      pastel: {
+        title: "Ayudanos a calcular el pastel",
+        subtitle: "Puedes hacer lo siguiente",
+      },
+      msg: {
+        title: "Mandanos un mensaje",
+        subtitle: "Ya conoces nuesto numero",
+      },
+      form: {
+        title: "Llena el formulario",
+        subtitle: "Haz click en el boton para confimar tu asistencia",
+      },
+      button: "Confirma aqui!",
+    },
+  },
   footer: {
     links: [
       { link: "#detalles", title: "Detalles" },
