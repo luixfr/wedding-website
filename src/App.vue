@@ -10,28 +10,35 @@ import Regalos from "./components/Regalos.vue"
 import Hospedaje from "./components/Hospedaje.vue"
 import Recomendaciones from "./components/Recomendaciones.vue"
 import { Countdown } from 'vue3-flip-countdown'
+import { ref } from "vue"
+import { esContent } from "./content"
 
 const weddingDate = new Date('March 16, 2024 13:00:00 GMT-08:00')
+
+
+const content = ref(esContent)
+const lang = ref<"es" | "en">("es")
+
 
 </script>
 
 <template lang="pug">
 
-Header
+Header(:texto="content.header.texto" :cita="conent.header.cita")
 
 WideText
-Cards
+Cards#detalles
 .box.bg-secondary.my-5
     .container.py-5
         h1.text-center.display-3.ff-vibes.text-white Faltan 
         Countdown(labelColor="white" :deadlineDate="weddingDate" mainColor="#e63946" secondFlipColor="#e63946" mainFlipBackgroundColor="white" secondFlipBackgroundColor="white")
 
-Rsvp
-Schedule
-Regalos 
-Hospedaje
-Recomendaciones
+Rsvp#rsvp
+Schedule#schedule
+Regalos#registry
+Hospedaje#hospedaje
+Recomendaciones#recomendaciones
 
-Footer
+Footer(:links="content.footer.links")
 </template>
 

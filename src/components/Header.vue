@@ -3,7 +3,7 @@ import pareja from '../assets/image/pareja.webp'
 import bgPattern from '../assets/image/bg-pattern.webp'
 
 const bgImage = `url(${bgPattern})`
-
+defineProps<{ texto: string, cita: string }>()
 </script>
 <template lang="pug">
 
@@ -18,8 +18,8 @@ header
                         | Kevin
 
                     p.lead.text-white.fw-semibold.text-center.fs-4.ff-poppins.mt-5
-                        | Por tanto, dejará el hombre a su padre y a su madre, y se unirá a su mujer, y serán una sola carne. <br>
-                        | Genesis 2:24
+                        | {{ texto }} <br>
+                        | {{ cita }}
 
                 .col-10.col-sm-8.col-lg-6
                     img.d-block.mx-lg-auto.img-fluid(:src='pareja' alt='foto de los novios' width='700' height='500' loading='lazy')
