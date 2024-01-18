@@ -34,7 +34,7 @@ Cards#detalles(:date="content.cards.date" :time="content.cards.time")
         Countdown(labelColor="white" :deadlineDate="weddingDate" mainColor="#e63946" secondFlipColor="#e63946" mainFlipBackgroundColor="white" secondFlipBackgroundColor="white")
 
 Rsvp#rsvp(:title="content.rsvp.title" :card="content.card")
-Schedule#schedule
+Schedule#schedule(:schedule="content.schedule.schedule" :title="content.schedule.title")
 Regalos#registry
 Hospedaje#hospedaje
 Recomendaciones#recomendaciones

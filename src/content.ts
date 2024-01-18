@@ -1,3 +1,10 @@
+import ceremonia from "../assets/image/ceremonia.svg";
+import recepcion from "../assets/image/amor-globos.svg";
+import fiesta from "../assets/image/fiesta.svg";
+import dinner from "../assets/image/dinner.svg";
+import bienvenida from "../assets/image/recepcion.svg";
+import pastel from "../assets/image/pastel.svg";
+import despedida from "../assets/image/despedida.svg";
 export const esContent = {
   header: {
     texto:
@@ -38,6 +45,18 @@ export const esContent = {
       },
       button: "Confirma aqui!",
     },
+  },
+  schedule: {
+    title: "",
+    schedule: [
+      { img: ceremonia, title: "Ceremonia", time: "De 1:00 a 2:30pm" },
+      { img: recepcion, title: "Recepcion", time: "Inicia a las 2:30pm" },
+      { img: bienvenida, title: "Bienvenida", time: "De 3:30 a 3:45pm" },
+      { img: dinner, title: "Cena", time: "De 3:45 a 6:00pm" },
+      { img: pastel, title: "Pastel", time: "De 6:00 a 6:30pm" },
+      { img: fiesta, title: "Convivo", time: "6:30pm a 8:00pm" },
+      { img: despedida, title: "Despedida", time: "8:00 a 8:15pm" },
+    ],
   },
   footer: {
     links: [
