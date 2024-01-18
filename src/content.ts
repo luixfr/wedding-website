@@ -103,3 +103,101 @@ export const esContent = {
     ],
   },
 };
+
+export const enContent = {
+  header: {
+    texto:
+      "Therefore a man shall leave his father and mother and be joined to his wife, and they shall become one flesh.",
+    cita: "Genesis 2:24",
+  },
+  invitation: {
+    title: "We are getting married!",
+    invitation:
+      "We are pleased to invite you to witness our union and the exchange of our vows of love and commitment.",
+  },
+  cards: {
+    place: {
+      title: "7910 S. Vineland road Bakersfield, CA 93307",
+      button: "Open in Google Maps",
+    },
+    time: {
+      title: "Saturday 16 de Marzo. 1:00pm",
+      button: "Add to Calendar",
+    },
+  },
+  countDown: { title: "Time Left" },
+  rsvp: {
+    title: "Will you join us? ",
+    card: {
+      title: "Confirm your attendance. ",
+      pastel: {
+        title: "Help us calculate the cake.",
+        subtitle: "You can do the following:",
+      },
+      msg: {
+        title: "Send us a message",
+        subtitle: "You already know our number",
+      },
+      form: {
+        title: "Fill out the form",
+        subtitle: "Click the button to confirm your attendance.",
+      },
+      button: "Confirm here!",
+    },
+  },
+  schedule: {
+    title: "CHow will the festivities unfold??",
+    schedule: [
+      { img: ceremonia, title: "Ceremony", time: "From 1:00 to 2:30pm" },
+      { img: recepcion, title: "Reception", time: "Starts at 2:30pm" },
+      { img: bienvenida, title: "Welcome", time: "From 3:30 to 3:45pm" },
+      { img: dinner, title: "Dinner", time: "From 3:45 to 6:00pm" },
+      { img: pastel, title: "Cake", time: "From 6:00 to 6:30pm" },
+      { img: fiesta, title: "Social Moment", time: "6:30pm to 8:00pm" },
+      { img: despedida, title: "Farewell", time: "8:00 to 8:15pm" },
+    ],
+  },
+  registry: {
+    title: "Gifts",
+    text:
+      "Our preferred wedding gift is monetary, but you are welcome to bring and give whatever God has placed in your heart. In advance, we appreciate you thinking of us and sharing with us the blessings God has bestowed upon you.",
+  },
+  hotels: { title: "Options for lodging" },
+  recommendations: {
+    title: "Recommendations",
+    subtitle:
+      "Thank you for visiting our wedding page. Before we say goodbye, we would like to provide you with some final recommendations.",
+    recommendations: [
+      {
+        icon: HiSun.name,
+        text:
+          "Our wedding will be outdoors, so you are invited to bring what you need to ensure a comfortable and beautiful experience.",
+      },
+      {
+        icon: GiBowTie.name,
+        text:
+          "The dress code is elegant, but feel free to come as you like; the most important thing for us is your presence.",
+      },
+      {
+        icon: FaShoePrints.name,
+        text:
+          "Please note that the ceremony will take place on the grass, so consider your footwear options.",
+      },
+      {
+        icon: CoChild.name,
+        text:
+          "Lastly, we kindly ask parents to look after their children during our wedding to prevent any dangers or accidents. Our wish is to share our special day with you and for both of us to have a lovely experience, blessed by God. God bless you, and we look forward to seeing you soon!",
+      },
+    ],
+  },
+  footer: {
+    links: [
+      { link: "#detalles", title: "Details" },
+      { link: "#rsvp", title: "Confirm" },
+      { link: "#schedule", title: "Itinerary" },
+      { link: "#registry", title: "Gifts" },
+      { link: "#hospedaje", title: "Accommodations" },
+      { link: "#recomendaciones", title: "Recommendations" },
+    ],
+  },
+};

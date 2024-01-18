@@ -14,6 +14,8 @@ import {
   HiSun,
   GiBowTie,
   FaShoePrints,
+  IoLanguage,
+  BiCheck,
   CoChild,
 } from "oh-vue-icons/icons";
 import { App } from "vue";
@@ -28,13 +30,15 @@ export default function importIcons(app: App<Element>) {
     SiGooglecalendar,
     GiCakeSlice,
     MdTextsmsRound,
+    IoLanguage,
     IoDocumentText,
     BiArrowRightCircleFill,
     BiArrowDownCircleFill,
     HiSun,
     GiBowTie,
     FaShoePrints,
-    CoChild
+    CoChild,
+    BiCheck
   );
   app.component("v-icon", OhVueIcon);
 }
