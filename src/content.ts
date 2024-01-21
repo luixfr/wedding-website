@@ -50,13 +50,13 @@ export const esContent = {
   schedule: {
     title: "Como va a estar la fiesta?",
     schedule: [
-      { img: ceremonia, title: "Ceremonia", time: "De 1:00 a 2:30pm" },
-      { img: recepcion, title: "Recepcion", time: "Inicia a las 2:30pm" },
-      { img: bienvenida, title: "Bienvenida", time: "De 3:30 a 3:45pm" },
-      { img: dinner, title: "Cena", time: "De 3:45 a 6:00pm" },
-      { img: pastel, title: "Pastel", time: "De 6:00 a 6:30pm" },
-      { img: fiesta, title: "Convivo", time: "6:30pm a 8:00pm" },
-      { img: despedida, title: "Despedida", time: "8:00 a 8:15pm" },
+      { img: ceremonia, title: "Ceremonia", time: "De 1:00 a 2:00pm" },
+      { img: recepcion, title: "Recepcion", time: "Inicia a las 2:00pm" },
+      { img: bienvenida, title: "Bienvenida", time: "De 2:30 a 2:45pm" },
+      { img: dinner, title: "Cena", time: "De 2:45 a 4:00pm" },
+      { img: pastel, title: "Pastel", time: "De 4:00 a 4:30pm" },
+      { img: fiesta, title: "Convivo", time: "4:30pm a 6:00pm" },
+      { img: despedida, title: "Despedida", time: "6:00 a 6:15pm" },
     ],
   },
   registry: {
@@ -150,13 +150,13 @@ export const enContent = {
   schedule: {
     title: "How will the festivities unfold?",
     schedule: [
-      { img: ceremonia, title: "Ceremony", time: "From 1:00 to 2:30pm" },
-      { img: recepcion, title: "Reception", time: "Starts at 2:30pm" },
-      { img: bienvenida, title: "Welcome", time: "From 3:30 to 3:45pm" },
-      { img: dinner, title: "Dinner", time: "From 3:45 to 6:00pm" },
-      { img: pastel, title: "Cake", time: "From 6:00 to 6:30pm" },
-      { img: fiesta, title: "Social Moment", time: "6:30pm to 8:00pm" },
-      { img: despedida, title: "Farewell", time: "8:00 to 8:15pm" },
+      { img: ceremonia, title: "Ceremony", time: "From 1:00 to 2:00pm" },
+      { img: recepcion, title: "Reception", time: "Starts at 2:00pm" },
+      { img: bienvenida, title: "Welcome", time: "From 2:30 to 2:45pm" },
+      { img: dinner, title: "Dinner", time: "From 2:45 to 4:00pm" },
+      { img: pastel, title: "Cake", time: "From 4:00 to 4:30pm" },
+      { img: fiesta, title: "Social Moment", time: "4:30pm to 6:00pm" },
+      { img: despedida, title: "Farewell", time: "6:00 to 6:15pm" },
     ],
   },
   registry: {
