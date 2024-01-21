@@ -10,12 +10,12 @@ export const esContent = {
   header: {
     texto:
       "Por tanto, dejará el hombre a su padre y a su madre, y se unirá a su mujer, y serán una sola carne.",
-    cita: "Gensis 2:24",
+    cita: "Genesis 2:24",
   },
   invitation: {
     title: "Nos Vamos a Casar!",
     invitation:
-      "Nos complacemos en ivitarle a nuestra unión, y el intercambio de nuestros votos de amor y compromiso",
+      "Nos complacemos en invitarle a nuestra unión, y el intercambio de nuestros votos de amor y compromiso",
   },
   cards: {
     place: {
@@ -29,7 +29,7 @@ export const esContent = {
   },
   countDown: { title: "Faltan" },
   rsvp: {
-    title: "Nos acompanas?",
+    title: "Nos acompañas?",
     card: {
       title: "Confirma tu asistencia",
       pastel: {
@@ -48,7 +48,7 @@ export const esContent = {
     },
   },
   schedule: {
-    title: "Como va estar la fiesta?",
+    title: "Como va a estar la fiesta?",
     schedule: [
       { img: ceremonia, title: "Ceremonia", time: "De 1:00 a 2:30pm" },
       { img: recepcion, title: "Recepcion", time: "Inicia a las 2:30pm" },
@@ -62,7 +62,7 @@ export const esContent = {
   registry: {
     title: "Regalos",
     text:
-      "Nuestra preferencia de regalo de boda es monetario pero están invitados a traer y dar lo que Dios ha puesto en su corazón. De antemano les agradecemos por pensar en nosotros y compartir con nosotros las bendiciones que Dios les ha dado.",
+      "Nuestra preferencia de regalo de boda es monetario pero están en libertad de traer lo que Dios ha puesto en su corazón. De antemano les agradecemos por pensar en nosotros y compartir las bendiciones que Dios les ha dado.",
   },
   hotels: { title: "Opciones de Hospedaje" },
   recommendations: {
@@ -88,9 +88,11 @@ export const esContent = {
       {
         icon: CoChild.name,
         text:
-          "Finalmente, se les pide a los padres de familia que cuiden de sus niños durante su tiempo en nuestra boda para evitar peligros y accidentes. Nuestro deseo es compartir nuestro día especial con ustedes y que ambos tengamos una experiencia linda y sobre todo con la bendición de Dios. Dios los bendiga y los esperamos pronto!",
+          "Finalmente, se les pide a los padres de familia que cuiden de sus niños durante su tiempo en nuestra boda para evitar peligros y accidentes.",
       },
     ],
+    last:
+      "Nuestro deseo es compartir nuestro día especial con ustedes y que ambos tengamos una experiencia linda y sobre todo con la bendición de Dios, los esperamos!",
   },
   footer: {
     links: [
@@ -121,7 +123,7 @@ export const enContent = {
       button: "Open in Google Maps",
     },
     time: {
-      title: "Saturday 16 de Marzo. 1:00pm",
+      title: "Saturday, March 16th. 1:00pm",
       button: "Add to Calendar",
     },
   },
@@ -146,7 +148,7 @@ export const enContent = {
     },
   },
   schedule: {
-    title: "CHow will the festivities unfold??",
+    title: "How will the festivities unfold?",
     schedule: [
       { img: ceremonia, title: "Ceremony", time: "From 1:00 to 2:30pm" },
       { img: recepcion, title: "Reception", time: "Starts at 2:30pm" },
@@ -160,7 +162,7 @@ export const enContent = {
   registry: {
     title: "Gifts",
     text:
-      "Our preferred wedding gift is monetary, but you are welcome to bring and give whatever God has placed in your heart. In advance, we appreciate you thinking of us and sharing with us the blessings God has bestowed upon you.",
+      "Our preferred wedding gift is monetary, but you are welcome to bring and give whatever God has placed in your heart. In advance, we appreciate you thinking of us and sharing the blessings God has bestowed upon you.",
   },
   hotels: { title: "Options for lodging" },
   recommendations: {
@@ -186,9 +188,11 @@ export const enContent = {
       {
         icon: CoChild.name,
         text:
-          "Lastly, we kindly ask parents to look after their children during our wedding to prevent any dangers or accidents. Our wish is to share our special day with you and for both of us to have a lovely experience, blessed by God. God bless you, and we look forward to seeing you soon!",
+          "Lastly, we kindly ask parents to look after their children during our wedding to prevent any dangers or accidents.",
       },
     ],
+    last:
+      "Our wish is to share our special day with you and for both of us to have a lovely experience, blessed by God. God bless you, and we look forward to seeing you soon!",
   },
   footer: {
     links: [

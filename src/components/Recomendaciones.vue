@@ -11,6 +11,7 @@
                     .d-flex.gap-2.w-100.justify-content-between
                         div
                             p.mb-0.opacity-75 {{ recommendation.text }}
+        p.py-4 {{ recommendacion.last }}
 
 </template>
 <script setup lang="ts">
