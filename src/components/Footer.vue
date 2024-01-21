@@ -1,5 +1,5 @@
 <template lang="pug">
-.container
+.container.pb-5
     footer.d-flex.flex-wrap.justify-content-between.align-items-center.py-3.my-4.border-top
         p.col-md-4.mb-0.text-body-secondary &copy; 2024 daikev, Love
 

@@ -11,11 +11,11 @@
                     .d-flex.gap-2.w-100.justify-content-between
                         div
                             p.mb-0.opacity-75 {{ recommendation.text }}
-        p.py-4 {{ recommendacion.last }}
+        p.py-4 {{ last }}
 
 </template>
 <script setup lang="ts">
 
 import { OhVueIcon } from "oh-vue-icons";
-defineProps<{ recommendations: { icon: string, text: string }[], title: string, subtitle: string }>()
+defineProps<{ recommendations: { icon: string, text: string }[], title: string, subtitle: string, last: string }>()
 </script>

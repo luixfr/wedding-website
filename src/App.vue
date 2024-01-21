@@ -44,9 +44,9 @@ Rsvp#rsvp(:title="content.rsvp.title" :card="content.rsvp.card")
 Schedule#schedule(:schedule="content.schedule.schedule" :title="content.schedule.title")
 Regalos#registry(:title="content.registry.title" :text="content.registry.text")
 Hospedaje#hospedaje(:title="content.hotels.title")
-Recomendaciones#recomendaciones(:title="content.recommendations.title" :subtitle="content.recommendations.subtitle", :recommendations="content.recommendations.recommendations")
+Recomendaciones#recomendaciones(:title="content.recommendations.title" :subtitle="content.recommendations.subtitle", :recommendations="content.recommendations.recommendations" :last="content.recommendations.last")
 
-.dropdown.position-fixed.bottom-0.end-0.mb-3.me-3.bd-mode-toggle
+.dropdown.position-fixed.bottom-0.end-0.mb-5.me-5.bd-mode-toggle
     button#bd-theme.btn.btn-secondary.py-2.dropdown-toggle.d-flex.align-items-center.border-white(type='button' aria-expanded='false' data-bs-toggle='dropdown' aria-label='Toggle theme (light)')
         v-icon(:name="IoLanguage.name" fill="white" scale="1.5")
         span#bd-theme-text.visually-hidden Toggle theme
