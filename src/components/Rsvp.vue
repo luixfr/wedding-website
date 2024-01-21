@@ -36,6 +36,6 @@ defineProps<{
                             div
                                 h5.mb-0 {{ card.form.title }}
                                 | {{ card.form.subtitle }}
-                    button.btn.btn-lg.btn-secondary.mt-2.w-100.text-white {{ card.button }}
+                    a.btn.btn-lg.btn-secondary.mt-2.w-100.text-white(target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSclCxAX12PsrAVJiBY-1B6RcLb7H-wDQut0xlrfVpVvEdumfg/viewform?usp=sf_link") {{ card.button }}
 
 </template>

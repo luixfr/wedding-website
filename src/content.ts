@@ -66,7 +66,7 @@ export const esContent = {
   },
   hotels: { title: "Opciones de Hospedaje" },
   recommendations: {
-    title: "Recomnedaciones",
+    title: "Recomendaciones",
     subtitle:
       "Gracias por visitar nuestra página de boda. Antes de despedirnos quisiéramos darles algunas últimas recomendaciones.",
     recommendations: [
