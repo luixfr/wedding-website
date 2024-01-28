@@ -21,7 +21,7 @@ header
                         | {{ texto }} <br>
                         | {{ cita }}
 
-                .col-10.col-sm-8.col-lg-6
+                //.col-10.col-sm-8.col-lg-6
                     img.d-block.mx-lg-auto.img-fluid(:src='pareja' alt='foto de los novios' width='700' height='500' loading='lazy')
 
 
