@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import pareja from '../assets/image/pareja.webp'
+import pareja from '../assets/image/dk.png'
 import bgPattern from '../assets/image/bg-pattern.webp'
 
 const bgImage = `url(${bgPattern})`
@@ -9,7 +9,7 @@ defineProps<{ texto: string, cita: string }>()
 
 header
     .box
-        .container.col-xxl-8.px-4.py-5.pb-0
+        .container.px-4.py-5.pb-0
             .row.flex-lg-row.align-items-center.g-10.justify-content-center
                 .col-lg-6
                     h1.title.lh-1.mb-3.text-white.text-center.fw-normal
@@ -21,8 +21,8 @@ header
                         | {{ texto }} <br>
                         | {{ cita }}
 
-                //.col-10.col-sm-8.col-lg-6
-                    img.d-block.mx-lg-auto.img-fluid(:src='pareja' alt='foto de los novios' width='700' height='500' loading='lazy')
+                .col-10.col-sm-8.col-lg-6.align-self-end
+                    img.d-block.mx-lg-auto.img-fluid(:src='pareja' alt='foto de los novios' loading='lazy')
 
 
                     
